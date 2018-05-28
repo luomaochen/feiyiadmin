@@ -1,0 +1,12 @@
+{
+    "list": [{
+       "username":"用户组",
+        "state":"未分配人员"
+    }, {
+        "username":"用户组1",
+        "state":"已分配人员"
+    }, {
+        "username":"用户组2",
+        "state":"已分配人员"
+    }]
+}
