@@ -19,17 +19,17 @@
             </div>
             <el-table :data="tableData1" border style="width: 100%" ref="multipleTable" @selection-change="handleSelectionChange">
                 <el-table-column type="selection" width="55" ></el-table-column>
-                <el-table-column prop="username" label="用户名"  width="150">
+                <el-table-column prop="username" label="用户名"  width="120">
                 </el-table-column>
-                <el-table-column prop="group" label="用户组" width="250">
+                <el-table-column prop="group" label="用户组" width="150">
                 </el-table-column>
-                <el-table-column prop="projectname" label="项目名称" width="350">
+                <el-table-column prop="projectname" label="项目名称" width="300">
                 </el-table-column>
-                <el-table-column prop="first_date" label="注册时间" >
+                <el-table-column prop="first_date" label="注册时间" width="120">
                 </el-table-column>
-                <el-table-column prop="end_date" label="最后登录时间" >
+                <el-table-column prop="end_date" label="最后登录时间" width="120">
                 </el-table-column>
-                <el-table-column label="操作" width="280">
+                <el-table-column label="操作" width="580">
                     <template slot-scope="scope">
                         <el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
                         <el-button size="small">详情</el-button>
@@ -85,6 +85,9 @@
     export default {
         data() {
             return {
+                input0:'',
+                input1:'',
+                input2:'',
                 url: './static/vuetable.json',
                 url1: './static/userlist.json',
                 tableData: [],

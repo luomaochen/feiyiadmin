@@ -14,7 +14,7 @@
                 <el-table-column type="selection" width="55" ></el-table-column>
                 <el-table-column prop="title" label="标题" sortable width="200">
                 </el-table-column>
-                <el-table-column prop="content" label="内容" width="720">
+                <el-table-column prop="content" label="内容" width="320">
                 </el-table-column>
                 <el-table-column prop="first_date" label="创建时间" >
                 </el-table-column>

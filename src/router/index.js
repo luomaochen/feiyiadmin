@@ -132,6 +132,30 @@ export default new Router({
 
 
 
+                {
+                    //分类管理
+                    path: '/classification',
+                    component: resolve => require(['../components/page/Contentmanagement/classification.vue'], resolve),
+                    meta: { title: '分类管理'}
+                },
+                {
+                    //地区管理
+                    path: '/region',
+                    component: resolve => require(['../components/page/Contentmanagement/region.vue'], resolve),
+                    meta: { title: '地区管理'}
+                },
+                {
+                    //项目库管理
+                    path: '/projectlibrary',
+                    component: resolve => require(['../components/page/Contentmanagement/projectlibrary.vue'], resolve),
+                    meta: { title: '项目库管理'}
+                },
+
+
+
+
+
+
 
                 {
                     //项目详情

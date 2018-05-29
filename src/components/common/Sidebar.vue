@@ -82,6 +82,28 @@
                         ]
                     },
 
+
+
+                    {
+                        icon: 'el-icon-date',
+                        index: '7',
+                        title: '内容管理',
+                        subs: [
+                            {
+                                index: 'classification',
+                                title: '分类管理'
+                            },
+                            {
+                                index: 'region',
+                                title: '地区管理'
+                            },
+                            {
+                                index: 'projectlibrary',
+                                title: '项目库管理'
+                            }
+                        ]
+                    },
+
                     {
                         icon: 'el-icon-date',
                         index: '8',
@@ -109,7 +131,7 @@
 
                     {
                         icon: 'el-icon-date',
-                        index: '4',
+                        index: '9',
                         title: '信息动态',
                         subs: [
                             {
@@ -125,7 +147,7 @@
 
                     {
                         icon: 'el-icon-date',
-                        index: '7',
+                        index: '10',
                         title: '站内统计',
                         subs: [
                             {
@@ -155,7 +177,7 @@
                     },
                     {
                         icon: 'el-icon-date',
-                        index: '3',
+                        index: '11',
                         title: '表单相关',
                         subs: [
                             {

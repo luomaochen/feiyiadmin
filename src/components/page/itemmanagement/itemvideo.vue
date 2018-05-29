@@ -8,7 +8,7 @@
         <div class="container">
             <div class="handle-box">
                 <el-button type="primary" icon="delete" class="handle-del mr10" @click="delAll">批量删除</el-button>
-                <el-button type="success" icon="delete" class="handle-del mr10" @click="go">新增</el-button>
+                <el-button type="success" icon="delete" class="handle-del mr10" >新增</el-button>
             </div>
             <el-table :data="tableData" style="width: 100%" ref="multipleTable" @selection-change="handleSelectionChange">
                 <el-table-column type="selection" ></el-table-column>

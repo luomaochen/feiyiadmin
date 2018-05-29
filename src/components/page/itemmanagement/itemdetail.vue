@@ -23,7 +23,7 @@
 
         <section class="map-container">
             <div class="address-input">
-                <el-input style="width: 250px" v-model="address" placeholder="请输入地址"></el-input>
+                <el-input style="width: 250px" v-model="address" :disabled="radio" placeholder="请输入地址"></el-input>
                 <el-button style="margin-left: 20px" size="mini" type="success" icon="el-icon-plus" circle ></el-button>
                 <el-switch
                     style="margin-left: 40px"
@@ -40,6 +40,7 @@
 
 
         <el-button style="margin-top: 60px" type="primary" @click="submit">提交</el-button>
+        <el-button style="margin-top: 60px" type="primary" >预览</el-button>
     </div>
 
 
@@ -205,16 +206,15 @@
 }
 
 .map-container {
-    width: 80%;
-    height: 500px;
-    background-color: yellow;
-    margin-top: 50px;
+    width: 100%;
+    height: 530px;
+    margin-top: 20px;
 }
 
 .address-input {
     width: 100%;
     height: 40px;
-    background-color: red;
+    margin-top: 50px;
     display: flex;
     align-items: center;
 }
